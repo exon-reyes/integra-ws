@@ -1,0 +1,5 @@
+# 1. Generate a 2048-bit RSA *private* key (PKCS #8 -- Nimbus & Spring accept this as-is)
+openssl genpkey -algorithm RSA -out private.pem -pkeyopt rsa_keygen_bits:2048
+
+# 2. Derive the matching *public* key
+openssl rsa -pubout -in private.pem -out public.pem

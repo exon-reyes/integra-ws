@@ -1,0 +1,9 @@
+=====================================================
+🚀 APP/WEB SERVICE: ${application.title} v${application.version}
+-----------------------------------------------------
+⚙️ TECNOLOGÍA: Spring Boot v${spring-boot.version}
+💬 DESCRIPCIÓN: ${application.description}
+-----------------------------------------------------
+💻 DESARROLLADOR: ${application.dev}
+© DERECHOS: ${application.derechos}
+=====================================================

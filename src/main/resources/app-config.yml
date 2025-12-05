@@ -1,0 +1,3 @@
+app-config:
+  default-rows: 30
+  default-page: 0
