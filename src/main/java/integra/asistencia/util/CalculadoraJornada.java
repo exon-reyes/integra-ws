@@ -322,10 +322,6 @@ public class CalculadoraJornada {
                                          Boolean jornadaCerrada, Boolean cerradoAutomatico,
                                          List<PausaAsistencia> pausas) {
         // Si marcó entrada, se considera día trabajado (incluye entrada sin salida y cierres automáticos)
-        if (inicioJornada != null) {
-            return true;
-        }
-
-        return false;
+        return inicioJornada != null;
     }
 }
