@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableConfigurationProperties(ExternalPropertiesConfig.class)
 public class WsIntegraApplication {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         SpringApplication.run(WsIntegraApplication.class, args);
     }
 
