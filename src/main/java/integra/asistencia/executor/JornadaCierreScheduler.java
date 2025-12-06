@@ -129,7 +129,7 @@ public class JornadaCierreScheduler {
             String html = generarHtml(nombre, fecha, entrada, folio);
 
             emailService.sendHtmlEmail(
-                    "exon1704@gmail.com",
+                    jornada.getEmpleado().getEmail(),
                     "Registro con error",
                     html
             );
